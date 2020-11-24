@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\spr1"
+    "\\spr1",
+    "\\spr2"
   ],
-  "SelectedNode": "\\spr1\\kalkulator.py",
+  "SelectedNode": "\\spr2\\ToDoList.py",
   "PreviewInSolutionExplorer": false
 }
