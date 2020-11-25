@@ -1,4 +1,5 @@
-﻿from os import system, name 
+﻿#clear console on windows and unix
+from os import system, name 
 
 def clear(): 
     if name == 'nt': 
@@ -6,13 +7,16 @@ def clear():
     else:
         _ = system('clear') 
 
+#declare the table for the entire program
 task_list = []
 
+#task with name and done bool
 class Task:
     def __init__(self, text, done):
         self.text = text
         self.done = done
-        
+      
+#two display functions for easy use
 def display_task(text, done):
     if done==True:
         print("[",i,"]", text, "- done!")
@@ -30,6 +34,7 @@ def display_list():
     print("\n - - - ")
     return
 
+#three main functions for task manipulation
 def complete_task(x):
     if task_list[x].done == True:
         task_list[x].done = False
@@ -52,10 +57,12 @@ def rename_task(x):
     task_list[x].text = y
     return
 
+#sample tasks
 task_list.append(Task("Sample Task 1", False))
 task_list.append(Task("Sample Task 2", False))
 task_list.append(Task("Sample Task 3", True))
 
+#the main menu loop
 while 1!=0:
 
     display_list()
