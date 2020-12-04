@@ -9,3 +9,8 @@ Prosta aplikacja listy rzeczy do zrobienia, gdzie można dodawać, usuwać, zmie
 ### Sprawozdanie 3: 
 Program który wyszukuje linki do wiadomości o pogodzie i wkleja je razem z tytułami do pliku tekstowego, który stworzył w tym samym folderze.
 
+### Sprawozdanie 4: 
+Django REST API, można dodawać, usuwać, edytować marki samochodów, modele, rok wydania i ilość drzwi.
+
+### Sprawozdanie 5: 
+Sample Text
