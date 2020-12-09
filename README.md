@@ -13,4 +13,4 @@ Program który wyszukuje linki do wiadomości o pogodzie i wkleja je razem z tyt
 Django REST API, można dodawać, usuwać, edytować marki samochodów, modele, rok wydania i ilość drzwi.
 
 ### Sprawozdanie 5: 
-Sample Text
+Strona zrobiona w JavaScript React, która pobiera pobiera dane z API z zadania 4 i wyświetla te dane jako uproszczona lub szczegółowa lista.
