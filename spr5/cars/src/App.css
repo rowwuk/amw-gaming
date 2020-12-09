@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap');
+
+* {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 102%;
+}
+
+nav {
+  background-color: #222831;
+  color: #e8e8e8;
+  float: left;
+  height: 100vh;
+  width: 250px;
+  border-right-style: solid;
+  border-color: #f05454;
+  border-width: 5px;
+}
+
+#Logo {
+  margin: 20px;
+  padding: 4px 10px;
+  border-style: solid;
+  border-radius: 7.5px;
+  border-color: #f05454;
+  background-color: #e8e8e8;
+  color: #f05454;
+  font-size: 200%;
+}
+
+.SideUl {
+  list-style: none;
+  margin: 20px;
+  padding: 4px 10px;
+  border-style: solid;
+  border-radius: 7.5px;
+  border-color: #f05454;
+  background-color: #e8e8e8;
+  color: #f05454;
+  box-sizing: border-box;
+  
+}
+
+.SideLi {
+  border-bottom: solid;
+}
+
+.PageLabel {
+  float: left;
+  margin: 20px;
+  padding: 4px 10px;
+  width: 50%;
+  border-style: solid;
+  border-radius: 7.5px;
+  border-color: #f05454;
+  background-color: #e8e8e8;
+  color: #f05454;
+  font-size: 200%;
+}
+
+#List {
+  position: absolute;
+  top: 80px;
+  left: 255px;
+  float: left;
+}
+
+.MainLi {
+  border-bottom: solid;
+  width: 40vh;
+}
